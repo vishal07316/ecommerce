@@ -1,0 +1,18 @@
+.Menu{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    overflow: hidden;
+    
+}
+
+@media (max-width: 700px){
+.Menu{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;   
+    }   
+}

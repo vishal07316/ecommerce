@@ -1,0 +1,224 @@
+.food-display{
+    width: 900px;
+    margin-top: 80px;
+    /* border: 9px solid red; */
+    position: relative;
+    left: 7%;
+    padding-left: 90px;
+}
+
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+
+.food-display-list{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); */
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* margin-left: 120px; */
+    /* padding-left: 120px; */
+    gap: 40x;
+    row-gap: 10px;
+    column-gap: 10px;
+    overflow: scroll;
+    overflow: hidden;
+    /* grid-auto-rows: auto; */
+    /* grid-auto-columns: auto; */
+}
+
+@media (min-width: 401px) and (max-width: 700px){
+.food-display{
+        position: absolute;
+        left: 0%;
+        top:37%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        padding-top: 10px;
+        /* border: 10px solid red; */
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 170px;
+  
+        overflow: hidden;
+}
+
+.food-display-list::-webkit-scrollbar{
+    display: none;
+}
+
+.food-display-list{
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
+        grid-template-columns: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 90px;
+        /* padding-left: 90px; */
+        /* gap: 30x; */
+        row-gap: 30px;
+        /* width: 100%; */
+        /* column-gap: 50px; */
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 400px){
+.food-display{
+        position: absolute;
+        left: 0%;
+        top:33%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        padding-top: 10px;
+        /* border: 10px solid red; */
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 170px;
+  
+        overflow: hidden;
+}
+
+.food-display-list::-webkit-scrollbar{
+    display: none;
+}
+
+.food-display-list{
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
+        grid-template-columns: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 90px;
+        /* padding-left: 90px; */
+        /* gap: 30x; */
+        row-gap: 30px;
+        /* width: 100%; */
+        /* column-gap: 50px; */
+        overflow-y: scroll;
+    }
+}
+@media (min-width: 900px) and (max-width: 1099px) {
+    .food-display{
+        position: absolute;
+        left: 35%;
+        top:10%;
+        height: 800px;
+        display: flex;
+        /* flex-direction: column; */
+        margin-top: 80px;
+        padding: 20px;
+        /* border: 10px solid red; */
+        width: 65%;
+        /* overflow: scroll; */
+        display: flex;
+        justify-content: center;
+    }
+
+.food-display-list::-webkit-scrollbar{
+    display: none;
+}
+
+.food-display-list{
+        display: grid;
+        grid-template-columns: repeat(2,200px);
+        /* grid-template-columns: 200px; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        /* margin-left: 90px; */
+        /* padding-left: -10px; */
+        /* gap: 30x; */
+        row-gap: 30px;
+        /* width: 100%; */
+        /* column-gap: 50px; */
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+    .food-display{
+        position: absolute;
+        left: 30%;
+        top:10%;
+        height: 800px;
+        display: flex;
+        /* flex-direction: column; */
+        margin-top: 80px;
+        padding: 20px;
+        /* border: 10px solid red; */
+        width: 65%;
+        /* overflow: scroll; */
+        display: flex;
+        justify-content: center;
+    }
+
+.food-display-list::-webkit-scrollbar{
+    display: none;
+}
+
+.food-display-list{
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        /* grid-template-columns: 200px; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        /* margin-left: 90px; */
+        /* padding-left: -10px; */
+        /* gap: 30x; */
+        row-gap: 30px;
+        /* width: 100%; */
+        /* column-gap: 50px; */
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+}
+@media (min-width: 701px) and (max-width: 899px) {
+    .food-display{
+        position: absolute;
+        left: 35%;
+        top:10%;
+        height: 800px;
+        display: flex;
+        /* flex-direction: column; */
+        margin-top: 80px;
+        padding: 20px;
+        /* border: 10px solid red; */
+        width: 65%;
+        /* overflow: scroll; */
+        display: flex;
+        justify-content: center;
+    }
+
+.food-display-list::-webkit-scrollbar{
+    display: none;
+}
+
+.food-display-list{
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+        /* grid-template-columns: 200px; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        /* margin-left: 90px; */
+        /* padding-left: -10px; */
+        /* gap: 30x; */
+        row-gap: 30px;
+        /* width: 100%; */
+        /* column-gap: 50px; */
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+}
