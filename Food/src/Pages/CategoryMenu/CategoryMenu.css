@@ -1,0 +1,12 @@
+.Menu{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 150px;
+    
+}
+.dark .Menu{
+    color: white;
+}

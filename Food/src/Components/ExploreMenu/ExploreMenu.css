@@ -1,6 +1,6 @@
 .explore-menu{
     /* display: flex; */
-    position:absolute;
+    position:fixed;
     flex-direction: row;
     gap: 20px;
     left: 13%;
@@ -13,6 +13,11 @@
 
 .explore-menu h1{
     color: black;
+    font-weight: 500;
+}
+
+.dark .explore-menu h1{
+    color: white;
     font-weight: 500;
 }
 
@@ -60,6 +65,17 @@
     padding: 5px;
     margin-top: 0px;
     color: black;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+    margin: 0;
+}
+
+.dark .explore-menu-list-item p{
+    display: inline-block;
+    width: 200px;
+    padding: 5px;
+    margin-top: 0px;
+    color: white;
     font-size: max(1.4vw,16px);
     cursor: pointer;
     margin: 0;
